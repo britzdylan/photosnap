@@ -1,0 +1,155 @@
+[
+  {
+    "title": "Hazy Full Moon of Appalachia",
+    "description": "The dissected plateau area, while not actually made up of geological mountains, is popularly called ''mountains,' especially in eastern Kentucky and West Virginia, and while the ridges are not high, the terrain is extremely rugged.",
+    "author": "John Appleseed",
+    "published_date": 1583103600,
+    "slug": "hazy-full-moon-of-appalachia",
+    "featured": true,
+    "cover_image": "nature.png"
+  },
+  {
+    "title": "The Mountains",
+    "description": "Placeholder description for The Mountains.",
+    "author": "Benjamin Cruz",
+    "published_date": 1586988000,
+    "slug": "the-mountains",
+    "featured": false,
+    "cover_image": "mountains.png"
+  },
+  {
+    "title": "Sunset Cityscapes",
+    "description": "Placeholder description for Sunset Cityscapes.",
+    "author": "Benjamin Cruz",
+    "published_date": 1586815200,
+    "slug": "sunset-cityscapes",
+    "featured": false,
+    "cover_image": "skyline.png"
+  },
+  {
+    "title": "18 Days Voyage",
+    "description": "Placeholder description for 18 Days Voyage.",
+    "author": "Alexei Borodin",
+    "published_date": 1586556000,
+    "slug": "18-days-voyage",
+    "featured": false,
+    "cover_image": "walk.png"
+  },
+  {
+    "title": "Architecturals",
+    "description": "Placeholder description for Architecturals.",
+    "author": "Samantha Brooke",
+    "published_date": 1586383200,
+    "slug": "architecturals",
+    "featured": false,
+    "cover_image": "architect.png"
+  },
+  {
+    "title": "World Tour 2019",
+    "description": "Placeholder description for World Tour 2019.",
+    "author": "Timothy Wagner",
+    "published_date": 1586210400,
+    "slug": "world-tour-2019",
+    "featured": false,
+    "cover_image": "valley.png"
+  },
+  {
+    "title": "Unforeseen Corners",
+    "description": "Placeholder description for Unforeseen Corners.",
+    "author": "William Malcolm",
+    "published_date": 1585864800,
+    "slug": "unforeseen-corners",
+    "featured": false,
+    "cover_image": "tree_2.png"
+  },
+  {
+    "title": "King on Africa: Part III",
+    "description": "Placeholder description for King on Africa: Part III.",
+    "author": "Theresa Webb",
+    "published_date": 1585436400,
+    "slug": "king-on-africa-part-iii",
+    "featured": false,
+    "cover_image": "lion.png"
+  },
+  {
+    "title": "The Trip to Nowhere",
+    "description": "Placeholder description for The Trip to Nowhere.",
+    "author": "Felicia Rourke",
+    "published_date": 1584745200,
+    "slug": "the-trip-to-nowhere",
+    "featured": false,
+    "cover_image": "tree.png"
+  },
+  {
+    "title": "Rage of the Sea",
+    "description": "Placeholder description for Rage of the Sea.",
+    "author": "Mohammed Abdul",
+    "published_date": 1584572400,
+    "slug": "rage-of-the-sea",
+    "featured": false,
+    "cover_image": "close_up_ocean.png"
+  },
+  {
+    "title": "Running Free",
+    "description": "Placeholder description for Running Free.",
+    "author": "Michelle",
+    "published_date": 1584313200,
+    "slug": "running-free",
+    "featured": false,
+    "cover_image": "horses.png"
+  },
+  {
+    "title": "Behind the Waves",
+    "description": "Placeholder description for Behind the Waves.",
+    "author": "Lamar Wilson",
+    "published_date": 1583881200,
+    "slug": "behind-the-waves",
+    "featured": false,
+    "cover_image": "waves.png"
+  },
+  {
+    "title": "Calm Waters",
+    "description": "Placeholder description for Calm Waters.",
+    "author": "Samantha Brooke",
+    "published_date": 1583708400,
+    "slug": "calm-waters",
+    "featured": false,
+    "cover_image": "pink_mountains.png"
+  },
+  {
+    "title": "The Milky Way",
+    "description": "Placeholder description for The Milky Way.",
+    "author": "Benjamin Cruz",
+    "published_date": 1583362800,
+    "slug": "the-milky-way",
+    "featured": false,
+    "cover_image": "stars.png"
+  },
+  {
+    "title": "Night at the Dark Forest",
+    "description": "Placeholder description for Night at the Dark Forest.",
+    "author": "Mohammed Abdul",
+    "published_date": 1583276400,
+    "slug": "night-at-the-dark-forest",
+    "featured": false,
+    "cover_image": "snow_peak.png"
+  },
+  {
+    "title": "Somwarpet's Beauty",
+    "description": "Placeholder description for Somwarpet's Beauty.",
+    "author": "Michelle",
+    "published_date": 1583017200,
+    "slug": "somwarpets-beauty",
+    "featured": false,
+    "cover_image": "flowers.png"
+  },
+  {
+    "title": "Land of Dreams",
+    "description": "Placeholder description for Land of Dreams.",
+    "author": "William Malcolm",
+    "published_date": 1582585200,
+    "slug": "land-of-dreams",
+    "featured": false,
+    "cover_image": "church.png"
+  }
+]
