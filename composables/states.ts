@@ -91,5 +91,10 @@ export interface TNavigation {
       text: string;
       href: string;
     }[];
+    logo: {
+      src: string;
+      alt: string;
+      href: string;
+    };
   };
 }
