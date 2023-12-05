@@ -3,7 +3,7 @@ export default defineAppConfig({
   navigation: {
     shared: {
       logo: {
-        src: '/images/shared/logo.svg',
+        src: 'logo/dark.svg',
         alt: 'Photosnap logo',
         href: '/',
       },
