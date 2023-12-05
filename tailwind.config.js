@@ -2,8 +2,21 @@
 export default {
   content: [],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['DM Sans', 'Inter', 'sans-serif'],
+      },
+      colors: {
+        pureBlack: '#000000',
+        pureWhite: '#ffffff',
+        lightGrey: '#DFDFDF',
+        brand: {
+          blue: '#FFC593',
+          pink: '#BC7198',
+          orange: '#5A77FF',
+        },
+      },
+    },
   },
   plugins: [],
-}
-
+};
