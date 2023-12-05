@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="max-w-[1440px] h-[72px] bg-pureWhite w-full flex justify-between items-center p-8 mx-auto fixed md:relative z-50">
+    class="max-w-[1440px] h-[72px] bg-pureWhite w-full flex justify-between items-center p-8 2xl:px-0 mx-auto fixed md:relative z-50">
     <NuxtLink :to="logo.href">
       <NuxtImg :alt="logo.alt" :src="logo.src" class="w-[120px]" />
     </NuxtLink>
