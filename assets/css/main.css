@@ -42,7 +42,7 @@
     @apply text-pureBlack font-bold text-[15px] md:text-xs tracking-widest mr-8 uppercase;
   }
   .btn {
-    @apply w-max uppercase font-bold tracking-[2px] text-center flex items-center justify-center cursor-pointer;
+    @apply w-max text-[12px] uppercase font-bold tracking-[2px] text-center flex items-center justify-center cursor-pointer;
   }
 
   .btn.primary {
