@@ -1,5 +1,5 @@
 <template>
-  <NuxtLink @click="$emit('clicked')" :to="to" class="btn link dark">
+  <NuxtLink @click="$emit('clicked')" :to="to" class="btn link">
     <slot></slot>
     <SvgoArrow />
   </NuxtLink>
