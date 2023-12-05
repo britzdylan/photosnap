@@ -67,9 +67,9 @@ export default defineAppConfig({
             'Photosnap is a platform for photographers and visual storytellers. We make it easy to share photos, tell stories and connect with others.',
           cta: {
             text: 'Get an invite',
-            href: '/invite',
+            href: '/',
           },
-          image: '',
+          image: 'pier.png',
         },
         {
           title: 'BEAUTIFUL STORIES EVERY TIME',
@@ -79,7 +79,7 @@ export default defineAppConfig({
             text: 'Veiw the stories',
             href: '/stories',
           },
-          image: '',
+          image: 'laptop.png',
         },
         {
           title: 'DESIGNED FOR EVERYONE',
@@ -89,7 +89,7 @@ export default defineAppConfig({
             text: 'Veiw the stories',
             href: '/stories',
           },
-          image: '',
+          image: 'cameraman.png',
         },
       ],
     },
