@@ -19,13 +19,18 @@ export default defineAppConfig({
     },
     footer: {
       links: [{ text: 'Home', href: '/' }],
+      logo: {
+        src: 'logo/light.svg',
+        alt: 'Photosnap logo',
+        href: '/',
+      },
       social: [
         {
-          icon: 'facebook',
+          icon: 'Facebook',
           href: 'https://www.facebook.com',
         },
         {
-          icon: 'youtube',
+          icon: 'Youtube',
           href: 'https://www.youtube.com',
         },
         {
@@ -33,11 +38,11 @@ export default defineAppConfig({
           href: 'https://www.twitter.com',
         },
         {
-          icon: 'pinterest',
+          icon: 'Pinterest',
           href: 'https://www.pinterest.com',
         },
         {
-          icon: 'instagram',
+          icon: 'Instagram',
           href: 'https://www.instagram.com',
         },
       ],
