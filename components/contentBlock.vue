@@ -1,15 +1,26 @@
 <template>
   <section>
     <div class="inner-section">
-      <div class="content-block-wrapper" :class="contentOrder">
+      <div class="content-block-wrapper" :class="[contentOrder, isHero]">
+        <div
+          v-if="hero"
+          class="absolute w-1.5 h-[304px] bg-gradient-to-tr left-0 from-brand-blue via-brand-pink to-brand-orange"></div>
         <div class="content-block">
-          <h1 class="font-bold uppercase">
+          <h1 class="font-bold uppercase text-inherit">
             {{ title }}
           </h1>
-          <p>
+          <p class="text-inherit">
             {{ subtitle }}
           </p>
-          <UILink class="mt-8" :to="cta.href">{{ cta.text }}</UILink>
+          <UILink
+            class="mt-8 text-inherit"
+            :class="{
+              dark: hero,
+              '': !hero,
+            }"
+            :to="cta.href"
+            >{{ cta.text }}</UILink
+          >
         </div>
       </div>
       <div class="image-wrapper">
@@ -32,6 +43,7 @@
       href: string;
     };
     order: 'normal' | 'reverse';
+    hero: boolean;
   }>();
 
   const contentOrder = computed(() => {
@@ -39,11 +51,15 @@
       ? 'order-last  md:order-last'
       : 'order-last  md:order-first';
   });
+
+  const isHero = computed(() => {
+    return props.hero ? 'relative bg-pureBlack !text-pureWhite' : '';
+  });
 </script>
 
 <style scoped>
   section {
-    @apply w-full  text-pureBlack;
+    @apply w-full;
   }
 
   .inner-section {
@@ -54,7 +70,7 @@
     @apply relative overflow-hidden col-span-12 row-span-2 md:col-span-5 lg:col-span-7 self-stretch  h-full   flex items-stretch justify-stretch bg-blue-500;
   }
   .content-block-wrapper {
-    @apply col-span-12 row-span-4 md:col-span-7 lg:col-span-5  h-full flex items-center justify-center px-4 py-8;
+    @apply col-span-12 row-span-4 md:col-span-7 lg:col-span-5  h-full flex items-center justify-center px-4 py-8 text-pureBlack;
   }
   .content-block {
     @apply w-full max-w-[400px] flex flex-col gap-6 h-max;
