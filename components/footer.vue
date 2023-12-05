@@ -1,7 +1,7 @@
 <template>
   <footer class="bg-pureBlack w-full mt-auto text-pureWhite">
     <nav
-      class="max-w-[1440px] w-full px-8 py-24 mx-auto grid grid-cols-12 grid-rows-5 md:grid-rows-2 gap-8 justify-items-center md:justify-items-start items-start overflow-hidden">
+      class="max-w-[1440px] w-full px-8 py-24 mx-auto flex flex-col md:grid grid-cols-12 grid-rows-5 md:grid-rows-2 gap-8 justify-items-center md:justify-items-start items-center overflow-hidden">
       <NuxtLink class="col-span-12 md:col-span-3" :to="logo.href">
         <NuxtImg :alt="logo.alt" :src="logo.src" class="w-[120px] mx-auto" />
       </NuxtLink>
@@ -19,8 +19,8 @@
         </a>
       </div>
       <ul
-        class="flex md:flex-col gap-6 col-span-12 w-max md:col-span-6 md:row-start-1 md:row-span-2">
-        <li v-for="item in links">
+        class="flex flex-col items-center md:items-start gap-6 col-span-12 w-full md:col-span-6 md:row-start-1 md:row-span-2">
+        <li class="w-full text-center md:text-left" v-for="item in links">
           <NuxtLink
             :key="item.text"
             :to="item.href"
@@ -32,7 +32,7 @@
       <UILink class="col-span-12 md:col-span-3" :to="cta.href">{{
         cta.text
       }}</UILink>
-      <small class="text-lightGrey col-span-12 md:col-span-3">
+      <small class="text-lightGrey col-span-12 md:col-span-3 block">
         Copyright {{ new Date().getFullYear() }}. All Rights Reserved
       </small>
     </nav>

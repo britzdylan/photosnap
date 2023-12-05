@@ -7,7 +7,7 @@
 
     <ul class="hidden md:flex justify-center items-center">
       <li v-for="item in links">
-        <NuxtLink :key="item.text" :to="item.href" class="nav-link">
+        <NuxtLink :key="item.text" :to="item.href" class="nav-link mr-8">
           {{ item.text }}
         </NuxtLink>
       </li>
