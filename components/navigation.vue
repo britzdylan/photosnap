@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="max-w-[1440px] h-[72px] bg-pureWhite w-full flex justify-between items-center p-8 mx-auto">
+    class="max-w-[1440px] h-[72px] bg-pureWhite w-full flex justify-between items-center p-8 mx-auto fixed md:relative z-50">
     <NuxtLink :to="logo.href">
       <NuxtImg :alt="logo.alt" :src="logo.src" class="w-[120px]" />
     </NuxtLink>
@@ -18,7 +18,7 @@
     <div
       v-show="showMobile"
       @click="toggleMobile"
-      class="md:hidden absolute top-[72px] left-0 right-0 bottom-0 bg-black/10 transition-all duration-300 ease-out">
+      class="md:hidden fixed top-[72px] left-0 right-0 bottom-0 bg-black/50 transition-all duration-300 ease-out z-50">
       <div
         :class="{
           '!h-max': showMobile,
