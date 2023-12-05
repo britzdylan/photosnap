@@ -1,0 +1,41 @@
+{
+  "plans": [
+    {
+      "title": "Basic",
+      "description": "Includes basic usage of our platform. Recommended for new and aspiring photographers.",
+      "price": {
+        "monthly": 19,
+        "annually": 190
+      },
+      "features_included": "2"
+    },
+    {
+      "title": "Pro",
+      "description": "More advanced features available. Recommended for photography veterans and professionals.",
+      "price": {
+        "monthly": 39,
+        "annually": 390
+      },
+      "features_included": "4"
+    },
+    {
+      "title": "Business",
+      "description": "Additional features available such as more detailed metrics. Recommended for business owners.",
+      "price": {
+        "monthly": 99,
+        "annually": 990
+      },
+      "features_included": "8"
+    }
+  ],
+  "plan_features": {
+    "1": "Unlimited Story Posting",
+    "2": "Unlimited Photo Upload",
+    "3": "Embedding Custom Content",
+    "4": "Customize Metadata",
+    "5": "Advanced Metrics",
+    "6": "Photo Downloads",
+    "7": "Search Engine Indexing",
+    "8": "custom Analytics"
+  }
+}
