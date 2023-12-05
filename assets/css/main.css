@@ -38,12 +38,15 @@
 }
 
 @layer components {
+  .nav-link {
+    @apply text-pureBlack font-bold text-[15px] md:text-xs tracking-widest mr-8 uppercase;
+  }
   .btn {
-    @apply inline-block w-max uppercase font-bold tracking-[2px] text-center;
+    @apply w-max uppercase font-bold tracking-[2px] text-center flex items-center justify-center cursor-pointer;
   }
 
   .btn.primary {
-    @apply bg-pureBlack h-[40px] w-[158px] text-[12px] text-pureWhite;
+    @apply bg-pureBlack h-[40px] min-w-[158px] text-[12px] text-pureWhite;
     @apply hover:text-pureBlack hover:bg-lightGrey;
   }
 
@@ -63,12 +66,12 @@
   .btn.link.dark {
     @apply invert;
   }
-}
 
-.btn.link > svg.nuxt-icon--fill {
-  fill: transparent;
-}
+  .btn.link > svg.nuxt-icon--fill {
+    fill: transparent;
+  }
 
-.btn.link > svg.nuxt-icon--fill * {
-  fill: transparent;
+  .btn.link > svg.nuxt-icon--fill * {
+    fill: transparent;
+  }
 }
