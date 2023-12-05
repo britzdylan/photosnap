@@ -8,7 +8,7 @@
   }
 
   html {
-    @apply text-pureBlack antialiased;
+    @apply antialiased;
   }
 
   body {
@@ -19,4 +19,56 @@
   h2.large {
     @apply text-[40px] font-bold leading-[48px] text-pureBlack tracking-[4.17px];
   }
+
+  h2 {
+    @apply text-[24px] font-bold leading-[25px] text-pureBlack;
+  }
+
+  h3 {
+    @apply text-[18px] font-bold leading-[25px] text-pureBlack;
+  }
+
+  h4 {
+    @apply text-[12px] font-bold leading-[16px] text-pureBlack tracking-[2px];
+  }
+
+  p {
+    @apply text-[15px] leading-[25px] text-pureBlack;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply inline-block w-max uppercase font-bold tracking-[2px] text-center;
+  }
+
+  .btn.primary {
+    @apply bg-pureBlack h-[40px] w-[158px] text-[12px] text-pureWhite;
+    @apply hover:text-pureBlack hover:bg-lightGrey;
+  }
+
+  .btn.primary.dark {
+    @apply bg-pureWhite text-pureBlack hover:text-pureBlack;
+  }
+
+  .btn.link {
+    @apply flex gap-3 items-center text-pureBlack;
+    @apply hover:underline underline-offset-2;
+  }
+
+  .btn.link > svg {
+    @apply w-[42px];
+  }
+
+  .btn.link.dark {
+    @apply invert;
+  }
+}
+
+.btn.link > svg.nuxt-icon--fill {
+  fill: transparent;
+}
+
+.btn.link > svg.nuxt-icon--fill * {
+  fill: transparent;
 }
