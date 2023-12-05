@@ -29,7 +29,7 @@
           </NuxtLink>
         </li>
       </ul>
-      <UILink class="col-span-12 md:col-span-3" :to="cta.href">{{
+      <UILink class="col-span-12 md:col-span-3 dark" :to="cta.href">{{
         cta.text
       }}</UILink>
       <small class="text-lightGrey col-span-12 md:col-span-3 block">
