@@ -107,27 +107,6 @@ export default defineAppConfig({
           image: 'silouete.png',
         },
       ],
-      plans: [
-        {
-          title: 'Basic',
-          description:
-            'Includes basic usage of our platform. Recommended for new and aspiring photographers.',
-          price: {
-            monthly: 19,
-            annually: 190,
-          }, 
-          features: [
-            'Unlimited Story Posting',
-            'Unlimited Photo Upload',
-            'Embedding Custom Content',
-            'Customize Metadata',
-            'Advanced Metrics',
-            'Photo Downloads',
-            'Search Engine Indexing',
-            'custom Analytics',
-          ],
-        },
-      ],
     },
   },
 });
