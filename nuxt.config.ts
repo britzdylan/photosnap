@@ -27,5 +27,8 @@ export default defineNuxtConfig({
     },
   },
   css: ['~/assets/css/main.css'],
-  modules: ['@nuxtjs/tailwindcss', 'nuxt-svgo'],
+  modules: ['@nuxtjs/tailwindcss', 'nuxt-svgo', '@nuxt/image'],
+  image: {
+    dir: 'assets/images',
+  },
 });
