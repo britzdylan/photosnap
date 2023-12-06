@@ -4,15 +4,19 @@
       <div class="content-block-wrapper" :class="[contentOrder, isHero]">
         <div
           v-if="hero"
-          class="absolute w-1.5 h-[304px] bg-gradient-to-tr left-0 from-brand-blue via-brand-pink to-brand-orange"></div>
+          class="absolute md:hidden block h-1.5 w-[304px] bg-gradient-to-tr top-0 from-brand-blue via-brand-pink to-brand-orange"></div>
+        <div
+          v-if="hero"
+          class="absolute hidden md:block w-1.5 h-[304px] bg-gradient-to-tr left-0 from-brand-blue via-brand-pink to-brand-orange"></div>
         <div class="content-block">
           <h1 class="font-bold uppercase text-inherit">
             {{ title }}
           </h1>
-          <p class="text-inherit">
+          <p :class="descriptionColor">
             {{ subtitle }}
           </p>
           <UILink
+            v-if="cta"
             class="mt-8 text-inherit"
             :class="{
               dark: hero,
@@ -38,7 +42,7 @@
     title: string;
     subtitle: string;
     image: string;
-    cta: {
+    cta?: {
       text: string;
       href: string;
     };
@@ -54,6 +58,10 @@
 
   const isHero = computed(() => {
     return props.hero ? 'relative bg-pureBlack !text-pureWhite' : '';
+  });
+
+  const descriptionColor = computed(() => {
+    return props.hero ? 'text-pureWhite/80' : 'text-pureBlack/80';
   });
 </script>
 
