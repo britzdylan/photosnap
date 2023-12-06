@@ -10,8 +10,10 @@
     <div class="price-wrapper">
       <div class="price text-[40px] font-bold">
         <span class="">$</span>
-        <span class="">{{ price.monthly.toFixed(2) }}</span>
-        <small class="opacity-70 block text-xs font-normal">per month</small>
+        <span class="">{{ price.toFixed(2) }}</span>
+        <small class="opacity-70 block text-xs font-normal"
+          >per {{ time }}</small
+        >
       </div>
     </div>
     <UIButton
@@ -34,6 +36,7 @@
       annually: number;
     };
     features_included: string;
+    isYearly: boolean;
   }>();
 
   const getProStyle = (): string => {
@@ -41,4 +44,12 @@
       ? 'bg-pureBlack text-pureWhite'
       : 'bg-neutral-100 text-pureBlack';
   };
+
+  const time = computed(() => {
+    return props.isYearly ? 'year' : 'month';
+  });
+
+  const price = computed(() => {
+    return props.isYearly ? props.price.annually : props.price.monthly;
+  });
 </script>
