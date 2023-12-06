@@ -30,7 +30,8 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
   modules: ['@nuxtjs/tailwindcss', 'nuxt-svgo', '@nuxt/image'],
   image: {
-    dir: 'assets/images',
-    domains: ['https://photosnap-challange-britzdylan.vercel.app/'],
+    dir: 'public/images',
+    provider: 'ipx',
+    format: ['webp'],
   },
 });
