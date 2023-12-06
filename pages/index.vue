@@ -19,4 +19,3 @@
     return isZeroOrEven(index) ? 'normal' : 'reverse';
   };
 </script>
-/
