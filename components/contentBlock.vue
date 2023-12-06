@@ -63,7 +63,7 @@
   }
 
   .inner-section {
-    @apply max-w-[1440px] max-h-[690px] md:max-h-[600px] h-full mx-auto grid grid-cols-12 grid-rows-6 md:grid-rows-1 items-stretch w-full;
+    @apply max-w-[1920px] max-h-[690px] md:max-h-[600px] h-full mx-auto grid grid-cols-12 grid-rows-6 md:grid-rows-1 items-stretch w-full;
   }
 
   .image-wrapper {
