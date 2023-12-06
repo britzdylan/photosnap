@@ -51,7 +51,7 @@
   }
 
   .btn.primary.dark {
-    @apply bg-pureWhite text-pureBlack hover:text-pureBlack;
+    @apply bg-pureWhite text-pureBlack hover:text-pureBlack hover:bg-lightGrey;
   }
 
   .btn.link {
