@@ -33,15 +33,15 @@
         <div class="pricing-table-row" v-for="(value, key) in plan_features">
           <p>{{ value }}</p>
           <div class="tick icon-no-fill">
-            <p>Basic</p>
+            <p class="block md:hidden">Basic</p>
             <SvgoCheck v-if="getPlanFeatures(key, 'basic')" />
           </div>
           <div class="tick icon-no-fill">
-            <p>Pro</p>
+            <p class="block md:hidden">Pro</p>
             <SvgoCheck v-if="getPlanFeatures(key, 'pro')" />
           </div>
           <div class="tick icon-no-fill">
-            <p>Business</p>
+            <p class="block md:hidden">Business</p>
             <SvgoCheck v-if="getPlanFeatures(key, 'business')" />
           </div>
         </div>
