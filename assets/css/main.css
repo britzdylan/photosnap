@@ -17,23 +17,23 @@
 
   h1,
   h2.large {
-    @apply text-[40px] font-bold leading-[48px] text-pureBlack tracking-[4.17px];
+    @apply text-[40px] font-bold leading-[48px]  tracking-[4.17px];
   }
 
   h2 {
-    @apply text-[24px] font-bold leading-[25px] text-pureBlack;
+    @apply text-[24px] font-bold leading-[25px];
   }
 
   h3 {
-    @apply text-[18px] font-bold leading-[25px] text-pureBlack;
+    @apply text-[18px] font-bold leading-[25px];
   }
 
   h4 {
-    @apply text-[12px] font-bold leading-[16px] text-pureBlack tracking-[2px];
+    @apply text-[12px] font-bold leading-[16px]  tracking-[2px];
   }
 
   p {
-    @apply text-[15px] leading-[25px] text-pureBlack;
+    @apply text-[15px] leading-[25px];
   }
 }
 
