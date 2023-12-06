@@ -16,6 +16,9 @@ export default {
           orange: '#5A77FF',
         },
       },
+      backgroundImage: {
+        'cta-bg': "url('/rocks.png')",
+      },
     },
   },
   plugins: [],
