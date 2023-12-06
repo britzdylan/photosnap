@@ -28,10 +28,7 @@
         </div>
       </div>
       <div class="image-wrapper">
-        <NuxtImg
-          :src="image"
-          alt="image"
-          class="object-cover object-center w-full" />
+        <NuxtImg :src="image" alt="image" class="object-cover w-full" />
       </div>
     </div>
   </section>
@@ -71,11 +68,11 @@
   }
 
   .inner-section {
-    @apply max-w-[1920px] max-h-[690px] md:max-h-[600px] h-full mx-auto grid grid-cols-12 grid-rows-6 md:grid-rows-1 items-stretch w-full;
+    @apply max-w-[1920px] h-[690px] md:h-[600px]  mx-auto grid grid-cols-12 grid-rows-6 md:grid-rows-1 items-stretch w-full;
   }
 
   .image-wrapper {
-    @apply relative overflow-hidden col-span-12 row-span-2 md:col-span-5 lg:col-span-7 self-stretch  h-full   flex items-stretch justify-stretch bg-blue-500;
+    @apply relative overflow-hidden col-span-12 row-span-2 md:col-span-5 lg:col-span-7 self-stretch  h-full   flex items-stretch justify-stretch;
   }
   .content-block-wrapper {
     @apply col-span-12 row-span-4 md:col-span-7 lg:col-span-5  h-full flex items-center justify-center px-4 py-8 text-pureBlack;
