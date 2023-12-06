@@ -16,7 +16,6 @@
   const currentRoute = ref(route.name);
 
   router.beforeEach((to, from, next) => {
-    console.log('to', to.name);
     currentRoute.value = to.name;
     next();
   });
