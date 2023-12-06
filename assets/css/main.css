@@ -74,4 +74,8 @@
   .btn.link > svg.nuxt-icon--fill * {
     fill: transparent;
   }
+
+  .stories-wrapper {
+    @apply grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 w-full max-w-[1920px] mx-auto;
+  }
 }
