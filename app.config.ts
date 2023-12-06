@@ -14,7 +14,7 @@ export default defineAppConfig({
       ],
       cta: {
         text: 'Get an invite',
-        href: '/invite',
+        href: '/',
       },
     },
     footer: {
@@ -53,7 +53,7 @@ export default defineAppConfig({
       title: 'We’re in beta. Get your invite today!',
       cta: {
         text: 'Get an invite',
-        href: '/invite',
+        href: '/',
       },
       image: 'rocks.png',
     },
